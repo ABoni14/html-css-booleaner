@@ -1,0 +1,62 @@
+body{
+  margin: 0 auto;
+}
+
+.container{
+  width: 50%;
+  margin: auto;
+}
+
+ header section .top-img{
+   background-color: #4ea0ff;
+   background-image: url("../img/pattern.png");
+   background-size: contain;
+   height: 100px;
+ }
+
+ .logo-boolean{
+   width: 200px;
+   padding-top: 30px;
+   padding-left: 10px;
+   padding-bottom: 8px;
+ }
+
+ section .title{
+   font-size: 30px;
+   font-weight: 900;
+   margin-bottom: 0px;
+ }
+
+ .link-boolean{
+  text-decoration: none;
+ }
+
+ .ref-boolean, .date-post{
+   color: #858585;
+ }
+
+ .ref-boolean{
+   font-size: 14px;
+   margin-top: 0px;
+ }
+
+ .date-post{
+   font-size: 10px;
+ }
+
+.tim-img{
+  width: 100%;
+}
+
+.tim-1, .tim-2{
+  background-size: cover;
+  height: 100%;
+}
+
+.tim-1{
+  width: 55%;
+}
+
+.tim-2{
+  width: 43%;
+}
