@@ -15,14 +15,14 @@ body{
  header section .top-img{
    background-color: #4ea0ff;
    background-image: url("../img/pattern.png");
+   background-size: contain;
    height: 100px;
  }
 
  .logo-boolean{
-   width: 200px;
-   padding-top: 30px;
+   width: 150px;
+   padding-top: 40px;
    padding-left: 10px;
-   padding-bottom: 8px;
  }
 
  section .title{
@@ -70,6 +70,10 @@ body{
   background-color: yellow;
 }
 
+.ul-main{
+  margin-left: 16px;
+}
+
 .table{
   text-align: left;
 }
@@ -88,4 +92,39 @@ body{
 
 .cel-text{
   width: 24%;
+}
+
+.bottom-img{
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-foot{
+  width: 200px;
+  height: 150px;
+  margin-top: 5px;
+}
+
+.desk{
+  background-image: url("../img/monitor.jpg");
+  background-size: contain;
+}
+
+.graph{
+  background-image: url("../img/graph.jpg");
+  background-size: contain;
+}
+
+.text-bottom{
+  color: white;
+  font-size: 18px;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+footer h3{
+  font-size: 16px;
+  color: #808080;
+  margin-bottom: 4px;
+  margin-top: 5px;
 }
